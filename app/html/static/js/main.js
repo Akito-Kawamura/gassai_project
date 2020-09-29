@@ -1,5 +1,3 @@
-// import SidebarComponent as module from './components/SidebarComponents'
-
 var App = new Vue({
   el: '#app',
   template: `
