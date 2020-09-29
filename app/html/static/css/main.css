@@ -1,0 +1,11 @@
+.el-input{
+  width: 80%;
+  margin: auto 0 auto auto;
+  max-width: 500px;
+}
+
+.phoneNumber{
+  width: 80%;
+  margin: 0 auto;
+  max-width: 500px;
+}
