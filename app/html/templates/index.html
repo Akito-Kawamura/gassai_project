@@ -6,7 +6,8 @@
 
     <!-- Load Vue -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.22/vue.min.js'></script>
-
+    <script src="https://unpkg.com/vue-router@3.0.1"></script>
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.22/vue-youtube/dist/vue-youtube.js"></script> -->
     <!-- Load ElementUI -->
     <!-- import CSS -->
     <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
@@ -19,15 +20,30 @@
 
     <!-- Load Local CSS -->
     <link rel="stylesheet" href="./static/css/main.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
+    <!-- <div id="router">
+      <nav>
+      <router-link to="/top">トップページ</router-link>
+      <router-link to="/users/aaa">ユーザー一覧ページ</router-link>
+    </nav>
+    <router-view></router-view>
+    </div> -->
     <div id="app"></div>
     <!-- Register Components -->
+    <!-- ルーター部分 -->
+    <script src="./static/js/router.js"></script>
     <!-- ヘッダー部分 -->
     <script src="./static/js/components/common/header_component.js"></script>
     <!-- ナビゲーションメニュー部 -->
     <script src="./static/js/components/common/main_menu_component.js"></script>
+
+    <script src="./static/js/components/topPage/top_menu_component.js"></script>
+
     <!--  フッター部 -->
+    <script src="./static/js/components/common/footer_buttons.js"></script>
     <script src="./static/js/components/common/footer_component.js"></script>
     <!-- Create Vue Instance -->
     <script src="./static/js/main.js"></script>
